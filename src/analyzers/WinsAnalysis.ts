@@ -12,6 +12,6 @@ export class winsAnalysis implements Analyzer {
       else if (match[2] === this.team && match[5] === MatchResult.AwayWin)
         wins++;
     }
-    return `Team ${this.team} won ${wins}`;
+    return `Team ${this.team} won ${wins} games`;
   }
 }
